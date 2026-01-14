@@ -12,14 +12,14 @@
     
         public void displayProfile() {
 
-            // 📜 Certifications: 자격증
+            // 📜 자격증
             String[] certifications = {
                 "정보처리기사", 
                 "MOS Excel Expert 2016", 
                 "MOS Word Expert 2016"
             };
     
-            // 🏆 Awards: 수상
+            // 🏆 수상
             Map<String, String> awards = new LinkedHashMap<>() {{
                 put("2024.08.29", "2024 강원 SW 페스티벌 - 우수상 🏆");
                 put("2023.12.08", "교내 SW캡스톤디자인 경진대회 - 장려상 🥉");
@@ -27,17 +27,17 @@
                 put("2023.09.26", "교내 창업 아이디어 공모전 - 대상 🥇");          
             }};
     
-            // 🎓 Education: 학력
+            // 🎓 학력
             String university = "한림대학교 (2020.03.01 ~ 2025.02.19) 🎓";
             String highSchool = "의정부여자고등학교 (2017.03.02 ~ 2020.02.07)";
     
-            // 💻 Experience: 경험
+            // 💻 경험
             String bootcamp = "코멘토 IT 직무부트캠프 수료 (AWS 구축부터 운영까지 실무 AtoZ) ☁️";
     
         }
     
          /* 🏎️ [Project] BOXBOX (F1 Showrun Fan Radio Service)
-         * 13년 만의 국내 F1 쇼런을 기념하는 글로벌 팬 참여형 플랫폼
+         * 13년 만의 국내 F1 쇼런 개최를 기념하는 글로벌 팬 참여형 플랫폼
          */
         @Deployment(platform = "Vercel", url = "https://boxbox-demo.vercel.app/")
         public void runBoxBoxProject() {
@@ -46,10 +46,10 @@
             String target = "Mercedes-AMG Petronas F1 Team & Valtteri Bottas";
     
             String[] coreFeatures = {
-                "Real-time Fan Radio Messaging", // 팬들의 목소리를 실시간으로!
                 "Event D-Day Countdown",          // F1 쇼런 카운트다운
-                "Global Multi-language (KR/EN)", // 글로벌 팀과의 연결을 위한 다국어 환경 지원
-                "Podium Ranking System"          // 커뮤니티 소통 경험 강화
+                "Real-time Fan Radio Messaging",  // 실시간 응원 공간 제공
+                "Global Multi-language (KR/EN)",  // 다국어 환경 지원
+                "Podium Ranking System"           // 커뮤니티 소통 경험 강화
             };
         }
     }
