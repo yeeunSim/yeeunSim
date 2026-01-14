@@ -1,6 +1,59 @@
+
+
 <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> YeeunSim </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 웹 백엔드 및 데이터 직무를 희망하는 심예은입니다. </div> 
+
+ ```java
+    public class YeeunSim implements BackEndDeveloper, DataEngineer {
+
+        private final String name = "심예은";
+        private final LocalDate birthDay = LocalDate.of(2001, 5, 17);
+        private final String message = "단순한 개발을 넘어, 데이터 흐름의 효율성을 설계하는 엔지니어를 꿈꿉니다! 🚀";
+    
+        public void displayProfile() {
+
+            // 📜 Certifications: 자격증
+            String[] certifications = {
+                "정보처리기사", 
+                "MOS Excel Expert 2016", 
+                "MOS Word Expert 2016"
+            };
+    
+            // 🏆 Awards: 수상
+            Map<String, String> awards = new LinkedHashMap<>() {{
+                put("2024.08.29", "2024 강원 SW 페스티벌 - 우수상 🏆");
+                put("2023.12.08", "교내 SW캡스톤디자인 경진대회 - 장려상 🥉");
+                put("2023.11.21", "교내 학술제 아이디어 부문 - 금상 🥈");
+                put("2023.09.26", "교내 창업 아이디어 공모전 - 대상 🥇");          
+            }};
+    
+            // 🎓 Education: 학력
+            String university = "한림대학교 (2020.03.01 ~ 2025.02.19) 🎓";
+            String highSchool = "의정부여자고등학교 (2017.03.02 ~ 2020.02.07)";
+    
+            // 💻 Experience: 경험
+            String bootcamp = "코멘토 IT 직무부트캠프 수료 (AWS 구축부터 운영까지 실무 AtoZ) ☁️";
+    
+        }
+    
+         /* 🏎️ [Project] BOXBOX (F1 Showrun Fan Radio Service)
+         * 13년 만의 국내 F1 쇼런을 기념하는 글로벌 팬 참여형 플랫폼
+         */
+        @Deployment(platform = "Vercel", url = "https://boxbox-demo.vercel.app/")
+        public void runBoxBoxProject() {
+
+            String team = "Pitstop_dev";
+            String target = "Mercedes-AMG Petronas F1 Team & Valtteri Bottas";
+    
+            String[] coreFeatures = {
+                "Real-time Fan Radio Messaging", // 팬들의 목소리를 실시간으로!
+                "Event D-Day Countdown",          // F1 쇼런 카운트다운
+                "Global Multi-language (KR/EN)", // 글로벌 팀과의 연결을 위한 다국어 환경 지원
+                "Podium Ranking System"          // 커뮤니티 소통 경험 강화
+            };
+        }
+    }
+ ```
 </div>
 
 <div style="text-align: left;">
