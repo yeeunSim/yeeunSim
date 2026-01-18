@@ -47,7 +47,7 @@
     
             String[] coreFeatures = {
                 "Event D-Day Countdown",          // F1 쇼런 카운트다운
-                "Real-time Fan Radio Messaging",  // 실시간 응원 공간 제공
+                "Fan Radio Messaging",            // 팬들의 소통 공간 제공
                 "Global Multi-language (KR/EN)",  // 다국어 환경 지원
                 "Podium Ranking System"           // 커뮤니티 소통 경험 강화
             };
